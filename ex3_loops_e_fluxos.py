@@ -30,7 +30,8 @@ for numero in range(1, 21):
 #       Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10.
 #       O usuário deve informar de qual número ele deseja ver a tabuada.
 ## ->
-numero_requisitado = int(input("Qual o numero que gostaria de gerar a tabuada?\n\t: "))
+resposta = input('Qual o numero que gostaria de gerar a tabuada?\t: ')
+numero_requisitado = int(resposta)
 print('Tabuada de ', numero_requisitado, ':')
 for numero in range(1, 11):
     print('\t', numero_requisitado, 'x', numero, ' = ', numero_requisitado*numero)
